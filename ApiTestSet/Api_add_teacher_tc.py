@@ -16,7 +16,7 @@ class Api_add_teacher(unittest.TestCase):
 
 
     #添加教师
-    @unittest.skipIf(inexecution != 1, '')
+    @unittest.skipIf(inexecution != 11, '')
     def test_add_teacher_1(self):
         '''添加教师成功'''
         edu_pyMySql('delete from xsmart_users where username="123456789"')
